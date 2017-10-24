@@ -8,5 +8,5 @@
 public class Corriente extends Vista
 {
    public Corriente()
-   {}
+   {}   
 }
