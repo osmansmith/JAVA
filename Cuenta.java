@@ -10,6 +10,7 @@ public class Cuenta
    private int codigo;
    private String titular;
    private int ncuenta;
+   private int saldo;
    
    public Cuenta(){}
    
@@ -25,6 +26,10 @@ public class Cuenta
    {
     this.ncuenta = ncuenta;
    }
+   public void setSaldo(int saldo)
+   {
+    this.saldo = saldo; 
+   }
    
    public int getCodigo()
    {
@@ -37,5 +42,9 @@ public class Cuenta
    public int getNcuenta()
    {
     return(this.ncuenta);
+   }
+   public int getSaldo()
+   {
+    return(this.saldo); 
    }
 }
