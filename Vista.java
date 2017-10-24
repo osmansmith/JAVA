@@ -36,4 +36,8 @@ public class Vista extends Cuenta
      }
      
     }
+    public int consultar()
+    {
+      return(this.getSaldo());
+    }
 }
